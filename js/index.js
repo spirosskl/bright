@@ -1,27 +1,32 @@
+var app = {
+    // Application Constructor
+    initialize: function() {
+        this.bindEvents();
+    },
+    // Bind Event Listeners
+    //
+    // Bind any events that are required on startup. Common events are:
+    // 'load', 'deviceready', 'offline', and 'online'.
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    // deviceready Event Handler
+    //
+    // The scope of 'this' is the event. In order to call the 'receivedEvent'
+    // function, we must explicitly call 'app.receivedEvent(...);'
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+        window.location="http://bright.gr";
+    },
+    // Update DOM on a Received Event
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
 
-function onLoad() {
-    document.addEventListener("deviceready", onDeviceReady, false);
-}
-// device APIs are available
-//
-function onDeviceReady() {
-     window.location="http://bright.com";
-    document.addEventListener("pause", onPause, false);
-    document.addEventListener("resume", onResume, false);
-    document.addEventListener("menubutton", onMenuKeyDown, false);
-    // Add similar listeners for other events
-}
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
 
-function onPause() {
-    // Handle the pause event
-}
-
-function onResume() {
-    // Handle the resume event
-}
-
-function onMenuKeyDown() {
-    // Handle the menubutton event
-}
-
-// Add similar event handlers for other events
+        console.log('Received Event: ' + id);
+    }
+};
