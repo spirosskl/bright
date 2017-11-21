@@ -1,3 +1,5 @@
+
+window.location="http://bright.gr";
 var app = {
     // Application Constructor
     initialize: function() {
@@ -16,7 +18,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        window.location="http://bright.gr";
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
