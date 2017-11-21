@@ -6,8 +6,10 @@
     version     = "1.0.0" >
 
 <!-- versionCode is optional and Android only -->
-
+<plugin name="cordova-plugin-whitelist" source="npm" />
    <access origin="http://bright.gr"/>
+    <access origin="*" />
+    <allow-navigation href="http://bright.gr" />
 
   <name>Bright</name>
 
