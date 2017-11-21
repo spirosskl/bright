@@ -20,6 +20,7 @@
  document.addEventListener("deviceready", onDeviceReady, false); 
 function onDeviceReady() {
     // Now safe to use the Cordova API
+    alert('sdf');
  window.location="http://your.website";
 }
 
@@ -34,21 +35,12 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-        this.receivedEvent('deviceready');
+        //this.receivedEvent('deviceready');
         window.location="http://www.bright.gr";
     },
 
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
+    
 };
 
 app.initialize();
