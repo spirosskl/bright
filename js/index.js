@@ -28,6 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        window.location="http://www.bright.gr";
     },
 
     // Update DOM on a Received Event
