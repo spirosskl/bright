@@ -48,8 +48,9 @@
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
     </platform>
     <access origin="*" />
-    <allow-navigation href="*://*.bright.gr/*" />
-    <allow-intent href="*://*.bright.gr/eshop" />
+    <allow-navigation href="http://www.bright.gr/" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
     <platform name="android">
