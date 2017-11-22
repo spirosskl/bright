@@ -49,10 +49,7 @@
     </platform>
     <access origin="*" />
     <allow-navigation href="http://bright.gr/" />
-    <allow-intent href="http://bright.gr/*" />
-    <allow-intent href="https://bright.gr/*" />
-    <allow-intent href="http://bright.gr/*/*" />
-    <allow-intent href="https://bright.gr/*/*" />
+    <allow-intent href="http://bright.gr/" />
     <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
     <platform name="android">
