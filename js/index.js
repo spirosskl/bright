@@ -1,5 +1,5 @@
 
-window.location="http://bright.gr";
+// window.location="http://bright.gr";
 var app = {
     // Application Constructor
     initialize: function() {
