@@ -49,6 +49,7 @@
     </platform>
     <access origin="*" />
     <allow-navigation href="*://*.bright.gr/*" />
+    <allow-intent href="*://*.bright.gr/eshop" />
     <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
     <platform name="android">
