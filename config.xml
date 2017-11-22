@@ -52,8 +52,10 @@
     <allow-navigation href="*://*.bright.gr/*/*" />
     <allow-navigation href="*://*.bright.gr/*/*/*" />
     <allow-navigation href="*://*.bright.gr/*/*/*/*" />
-    <allow-navigation href="*://*.bright.gr/*/*/*/*/*" />
     <allow-intent href="*://*.bright.gr/eshop" />
+    <allow-intent href="*://*.bright.gr/eshop/*" />
+    <allow-intent href="*://*.bright.gr/eshop/*/*" />
+    <allow-intent href="*://*.bright.gr/eshop/*/*/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
