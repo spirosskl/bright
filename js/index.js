@@ -1,5 +1,5 @@
 
-// window.location="http://www.bright.gr";
+window.location="http://www.bright.gr";
 var app = {
     // Application Constructor
     initialize: function() {
@@ -21,6 +21,6 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        window.location="http://www.bright.gr";
+        // window.location="http://www.bright.gr";
     }
 };
