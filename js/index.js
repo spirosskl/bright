@@ -18,6 +18,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        alert('df');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
