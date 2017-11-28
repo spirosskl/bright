@@ -14,7 +14,7 @@
 
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-splashscreen" source="npm" />
-    
+
     <platform name="android">
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
         <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
@@ -56,6 +56,7 @@
         <splash src="res/screen/ios/Default-Landscape~ipad_1024x768" width="1024" height="768"/>
         <splash src="res/screen/ios/Default-Landscape@2x~ipad_2048x1536.png" width="2048" height="1536"/>
         <splash src="res/screen/ios/Default-568h@2x~iphone_640x1136.png" width="640" height="1136"/>
+        <splash src="res/screen/ios/Default-750@2x~iphone6-portrait_750x1334.png" width="750" height="1334"/>
         <splash src="res/screen/ios/Default-1242@3x~iphone6s-portrait_1242x2208" width="1242" height="2208"/>
     </platform>
 
