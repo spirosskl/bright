@@ -55,6 +55,8 @@
         <splash src="res/screen/ios/Default-1242@3x~iphone6s-portrait_1242x2208" width="1242" height="2208"/>
     </platform>
 
+    <splash src="splash.png" />
+
 
     <access origin="*" />
     <allow-navigation href="*://*.bright.gr/*" />
