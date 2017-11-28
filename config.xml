@@ -17,6 +17,16 @@
         <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
         <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
         <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+
+        <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
+        <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
+        <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
+        <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
+
+        <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
+        <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
+        <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
+        <splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
     </platform>
     <platform name="ios">
         <icon height="57" platform="ios" src="www/res/icon/ios/Icon-57.png" width="57" />
@@ -35,7 +45,17 @@
         <icon height="29" platform="ios" src="www/res/icon/ios/Icon-29.png" width="29" />
         <icon height="58" platform="ios" src="www/res/icon/ios/Icon-58.png" width="58" />
         <icon height="87" platform="ios" src="www/res/icon/ios/Icon-87.png" width="87" />
+        <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
+        <splash src="res/screen/ios/Default@2x~iphone_640x960.png" width="640" height="960"/>
+        <splash src="res/screen/ios/Default-Portrait~ipad_768x1024.png" width="768" height="1024"/>
+        <splash src="res/screen/ios/Default-Portrait@2x~ipad_1536x2048.png" width="1536" height="2048"/>
+        <splash src="res/screen/ios/Default-Landscape~ipad_1024x768" width="1024" height="768"/>
+        <splash src="res/screen/ios/Default-Landscape@2x~ipad_2048x1536.png" width="2048" height="1536"/>
+        <splash src="res/screen/ios/Default-568h@2x~iphone_640x1136.png" width="640" height="1136"/>
+        <splash src="res/screen/ios/Default-1242@3x~iphone6s-portrait_1242x2208" width="1242" height="2208"/>
     </platform>
+
+
     <access origin="*" />
     <allow-navigation href="*://*.bright.gr/*" />
     <allow-intent href="*://*.bright.gr/eshop/*" />
